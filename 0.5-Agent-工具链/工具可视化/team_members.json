@@ -1,0 +1,59 @@
+{
+  "skill_dimensions": [
+    "control_algorithms",
+    "planning_algorithms",
+    "ros2_system",
+    "system_design",
+    "learning_ability",
+    "thinking_ability",
+    "open_question_handling"
+  ],
+  "max_score": 5,
+  "members": {
+    "Alice": {
+      "control_algorithms": 4,
+      "planning_algorithms": 3,
+      "ros2_system": 4,
+      "system_design": 5,
+      "learning_ability": 4,
+      "thinking_ability": 3,
+      "open_question_handling": 4
+    },
+    "Bob": {
+      "control_algorithms": 3,
+      "planning_algorithms": 4,
+      "ros2_system": 3,
+      "system_design": 3,
+      "learning_ability": 5,
+      "thinking_ability": 4,
+      "open_question_handling": 3
+    },
+    "Charlie": {
+      "control_algorithms": 5,
+      "planning_algorithms": 5,
+      "ros2_system": 4,
+      "system_design": 4,
+      "learning_ability": 3,
+      "thinking_ability": 5,
+      "open_question_handling": 4
+    },
+    "David": {
+      "control_algorithms": 2,
+      "planning_algorithms": 3,
+      "ros2_system": 2,
+      "system_design": 3,
+      "learning_ability": 4,
+      "thinking_ability": 3,
+      "open_question_handling": 2
+    },
+    "guHao": {
+      "control_algorithms": 4,
+      "planning_algorithms": 3,
+      "ros2_system": 5,
+      "system_design": 5,
+      "learning_ability": 4,
+      "thinking_ability": 4,
+      "open_question_handling": 3
+    }
+  }
+}
