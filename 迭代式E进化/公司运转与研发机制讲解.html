@@ -272,12 +272,12 @@
 <body>
   <header class="masthead">
     <div class="shell">
-      <p class="eyebrow">讲解稿 / 公司与研发机制</p>
-      <h1>从“能做事”到“能稳定交付”</h1>
-      <p class="lede">这份讲解把原始讨论记录重新组织成一条可复述的主线：公司以目标和现场价值驱动，各部门通过明确输入输出协作，研发以可测试、可部署、可追溯的任务闭环交付结果。</p>
+      <p class="eyebrow">讲解稿 / Agent 创业公司运行机制</p>
+      <h1>从“有 Agent”到“持续产生客户结果”</h1>
+      <p class="lede">这份讲解把原始讨论记录组织为一条 Agent 软件公司运行主线：客户需求驱动产品和项目，人和 Agent 按明确合同协作，按项目选择前端、后端、自动驾驶或机器人自主作业算法，通过可测试、可部署、可追溯的任务闭环完成软件交付，并把反馈回流为下一轮能力。具体软件形态和算法路线不预设。</p>
       <div class="meta">
-        <span>适用对象：研发、测试、交付、管理协同人员</span>
-        <span>讲解顺序：公司闭环 -> 部门协同 -> 研发 SOP -> 支撑机制</span>
+        <span>适用对象：业务、产品、研发、交付、管理与 Agent 协同人员</span>
+        <span>讲解顺序：结果闭环 -> 人机组织 -> 部门协同 -> 研发 SOP -> 支撑机制</span>
         <span>整理依据：<a href="迭代区-机制_流程.docx">迭代区-机制_流程.docx</a></span>
       </div>
     </div>
@@ -288,6 +288,7 @@
       <div class="nav-title">讲解目录</div>
       <a href="#principles">三条总原则</a>
       <a href="#company-loop">公司运转闭环</a>
+      <a href="#agent-organization">Agent 组织方式</a>
       <a href="#departments">部门如何协同</a>
       <a href="#project-flow">项目如何交付</a>
       <a href="#dev-sop">开发 SOP</a>
@@ -337,13 +338,28 @@
           <article class="flow-step"><div class="flow-no">03</div><h3>方案与接口</h3><p>确定技术路线、模块职责、数据流和协作合同。</p></article>
           <article class="flow-step"><div class="flow-no">04</div><h3>研发实现</h3><p>按解耦任务并行开发，用模拟依赖保持主线不断。</p></article>
           <article class="flow-step"><div class="flow-no">05</div><h3>办公室验证</h3><p>模块、集成、回归三类测试先在可控环境完成。</p></article>
-          <article class="flow-step"><div class="flow-no">06</div><h3>现场交付</h3><p>用脚本和手册部署，在真实场景验证用户侧效果。</p></article>
+          <article class="flow-step"><div class="flow-no">06</div><h3>项目环境交付</h3><p>按项目选择的前端、后端、算法和运行环境交付，用脚本、手册和验收清单验证。Windows 座舱和 Linux 工控机是已知选项。</p></article>
           <article class="flow-step"><div class="flow-no">07</div><h3>反馈与迭代</h3><p>把问题、体验和完成项转化为新的目标、任务和知识资产。</p></article>
         </div>
       </section>
 
+      <section id="agent-organization">
+        <p class="eyebrow">03 / Agent 组织方式</p>
+        <h2>Agent 是岗位中的工作单元，不是脱离业务的独立部门</h2>
+        <p class="section-intro">公司是否 Agent 化，不取决于部署了多少模型，而取决于每个 Agent 是否进入真实结果链，并且具备可授权、可验证、可升级的工作合同。</p>
+        <table class="matrix">
+          <thead><tr><th>工作系统</th><th>Agent 的可承担动作</th><th>必须交付的输出</th><th>人类质量门/升级边界</th></tr></thead>
+          <tbody>
+            <tr><td>产品</td><td>机会研究、需求归纳、竞品/场景分析、验收草案</td><td>带证据和假设的产品简报、需求与非目标</td><td>产品优先级、对外承诺和价值判断由负责人确认</td></tr>
+            <tr><td>项目</td><td>任务拆解、依赖跟踪、风险提示、进展汇总</td><td>计划表、任务合同、问题与决策记录</td><td>资源投入、范围变更和风险接受由项目负责人决定</td></tr>
+            <tr><td>研发</td><td>调研、方案比较、代码实现、测试辅助、文档同步</td><td>可审查代码/方案、测试证据、已知边界</td><td>架构、发布、安全和现场部署按质量门人工批准</td></tr>
+            <tr><td>交付</td><td>交付包核对、操作手册整理、现场问题结构化</td><td>部署清单、验收记录、反馈与下一步建议</td><td>客户沟通、合同、最终验收和敏感信息由负责人处理</td></tr>
+          </tbody>
+        </table>
+      </section>
+
       <section id="departments">
-        <p class="eyebrow">03 / 部门运转</p>
+        <p class="eyebrow">04 / 部门运转</p>
         <h2>部门协同的核心是“清楚地交接”</h2>
         <p class="section-intro">组织图不是为了划地盘，而是为了明确谁对什么结果负责、交给下游什么、需要从上游拿到什么。研发内部的小组也采用同样的接口思维。</p>
         <div class="split">
@@ -362,7 +378,7 @@
       </section>
 
       <section id="project-flow">
-        <p class="eyebrow">04 / 项目运转</p>
+        <p class="eyebrow">05 / 项目运转</p>
         <h2>一个项目要把“需求”变成可复现的交付</h2>
         <p class="section-intro">每次交接都应留下可核对的东西。没有输入输出的协作只能靠口头记忆；一旦换人或并行，信息会快速失真。</p>
         <div class="handoff">
@@ -383,7 +399,7 @@
       </section>
 
       <section id="dev-sop">
-        <p class="eyebrow">05 / 开发机制</p>
+        <p class="eyebrow">06 / 开发机制</p>
         <h2>以二级任务为单位的 S1-S5 开发 SOP</h2>
         <p class="section-intro">二级任务是便于管理和验收的基本单位。三级任务由执行者细分，但不能脱离二级任务的目标、优先级和验收标准。</p>
         <div class="sop">
@@ -396,7 +412,7 @@
       </section>
 
       <section id="maturity">
-        <p class="eyebrow">06 / 任务生命周期</p>
+        <p class="eyebrow">07 / 任务生命周期</p>
         <h2>技术不是一次做到 100 分，而是沿 L1-L5 逐步成熟</h2>
         <p class="section-intro">原文给出了从技术可行到甲方实际使用的五段式推进模型。它解决的不是“任务做没做”，而是“当前处于什么成熟度、下一步应该补什么”。</p>
         <div class="maturity">
@@ -409,7 +425,7 @@
       </section>
 
       <section id="project-management">
-        <p class="eyebrow">07 / 项目推进</p>
+        <p class="eyebrow">08 / 项目推进</p>
         <h2>项目计划表和问题管理表，是研发节奏的共同语言</h2>
         <p class="section-intro">原文强调用“看表 - 刷表 - 解决问题 - 再看表”的节奏替代只靠口头推动。目标、优先级、进展和卡点必须在同一套可见记录中收敛。</p>
         <div class="management-grid">
@@ -428,7 +444,7 @@
       </section>
 
       <section id="testing">
-        <p class="eyebrow">08 / 测试与反馈</p>
+        <p class="eyebrow">09 / 测试与反馈</p>
         <h2>测试是开发主链的一部分，不是末尾的附加动作</h2>
         <p class="section-intro">测试项与功能项应尽量镜像：功能定义明确什么，测试就证明什么。除功能正确性外，还要从用户体验和异常边界补足验证。</p>
         <div class="test-gates">
@@ -448,7 +464,7 @@
       </section>
 
       <section id="test-record">
-        <p class="eyebrow">09 / 测试记录与验收</p>
+        <p class="eyebrow">10 / 测试记录与验收</p>
         <h2>测试机制要有交接步骤，也要有正式记录</h2>
         <p class="section-intro">原文提出“开发 - 办公室测试 - 现场部署 - 现场测试”的分层机制。每次交接不是简单说“测过了”，而是传递可复用的测试结论和未覆盖范围。</p>
         <div class="record-grid">
@@ -464,17 +480,17 @@
       </section>
 
       <section id="deployment">
-        <p class="eyebrow">10 / 部署与交付</p>
-        <h2>成熟部署的目标是：传文件，然后一键执行</h2>
-        <p class="section-intro">手敲命令只适合临时救急，不应成为可持续交付方式。部署脚本、目录结构和操作手册需要共同降低现场操作复杂度。</p>
+        <p class="eyebrow">11 / 部署与交付</p>
+        <h2>软件项目部署的目标是：传文件，然后一键执行</h2>
+        <p class="section-intro">手敲命令只适合临时救急，不应成为可持续交付方式。部署脚本、目录结构和操作手册需要共同降低现场操作复杂度。每个软件项目按自己的模块组合和运行环境定义部署合同；不必复用相同技术栈。</p>
         <div class="deploy">
-          <article class="deploy-side"><h3>座舱端：环境与迭代分层</h3><ul><li>一次性部署覆盖 WSL 包导入、串口小工具、Web 自启和通信组件/服务配置。</li><li>迭代部署把串口激活、补丁和程序启动集中在一个脚本中；永久运行的部分由服务承接。</li><li>脚本按“总脚本调度分脚本”组织，逐步减少手工执行数量。</li></ul></article>
-          <article class="deploy-side"><h3>域控端：模块可独立，交付可统一</h3><ul><li>一次性部署覆盖日志轮转、基础库、通信组件和模块部署脚本。</li><li>模块可封装自己的部署流程，但总脚本必须支持一人全量部署，也支持多人分别部署。</li><li>准备离线安装包，作为现场网络不可用时的备用方案。</li></ul></article>
+          <article class="deploy-side"><h3>遥控座舱：Windows 主机与可选 WSL</h3><ul><li>部署清单先明确每个组件运行在 Windows 原生环境还是 WSL；座舱侧可包含 HMI/Web、串口工具和 Linux 组件。</li><li>一次性部署覆盖 WSL 包导入、串口小工具、Web 自启和通信组件/服务配置。</li><li>迭代部署把串口激活、补丁和程序启动集中在脚本中，并记录日志、版本和回滚方式。</li></ul></article>
+          <article class="deploy-side"><h3>工控机：Linux 服务与后台组件</h3><ul><li>部署清单明确 Linux 版本、依赖或离线包、网络接口、配置路径、日志轮转和服务启动方式。</li><li>模块可封装自己的部署流程，但总脚本必须支持一人全量部署，也支持多人分别部署。</li><li>跨座舱与工控机的版本兼容、接口和启动顺序必须经过集成测试与客户验收。</li></ul></article>
         </div>
       </section>
 
       <section id="architecture">
-        <p class="eyebrow">11 / 技术架构与工程目录</p>
+        <p class="eyebrow">12 / 技术架构与工程目录</p>
         <h2>架构图和目录不是展示材料，而是并行开发的边界</h2>
         <p class="section-intro">原文多次强调产品定义图、软件架构图、数据流向图和目录结构。它们的共同作用是让每个人知道模块承担什么、从哪里拿数据、向哪里交结果。</p>
         <div class="architecture">
@@ -495,7 +511,7 @@
       </section>
 
       <section id="agent-maturity">
-        <p class="eyebrow">12 / AI 编程成熟度</p>
+        <p class="eyebrow">13 / AI 编程成熟度</p>
         <h2>Agent 的引入也应按能力成熟度管理</h2>
         <p class="section-intro">原文把团队 AI 编程能力类比为智能驾驶分级。重点不是追求“无人化”标签，而是明确在每一层级中，哪些工作可以交给 Agent，哪些审核和决策仍需人负责。</p>
         <table class="matrix">
@@ -511,7 +527,7 @@
       </section>
 
       <section id="governance">
-        <p class="eyebrow">13 / 组织支撑机制</p>
+        <p class="eyebrow">14 / 组织支撑机制</p>
         <h2>文档、Git 与 Agent 是让流程跑稳的基础设施</h2>
         <div class="columns">
           <div>
@@ -535,7 +551,7 @@
       </section>
 
       <section id="source-archive">
-        <p class="eyebrow">14 / 原始机制附录</p>
+        <p class="eyebrow">15 / 原始机制附录</p>
         <h2>原文系统图和示例全部保留，用于追溯与深入讲解</h2>
         <p class="section-intro">正文已经把原文的机制重新编排；以下附录保留原始图示和系统例子，避免在整理时丢失其表达细节。涉及具体项目、人员、设备状态的历史数据仍以源 Word 为准，不应直接当作现行制度。</p>
         <div class="source-stack">
@@ -573,7 +589,7 @@
 
       <section id="wrap-up">
         <div class="closing">
-          <p class="eyebrow">15 / 讲解收束</p>
+          <p class="eyebrow">16 / 讲解收束</p>
           <h2>用五个问题检查机制是否真正运转</h2>
           <ol>
             <li>当前任务能否说清它服务的业务目标和验收标准？</li>
