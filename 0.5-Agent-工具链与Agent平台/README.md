@@ -22,6 +22,7 @@
 - [服务目录](service_catalog.md)：部门可以请求什么、服务的输入输出和边界。
 - [工具服务请求模板](tool_service_request_template.md)：提出自动化需求时的最小合同。
 - [Agent 工作单元模板](agent_work_unit_template.md)：注册可复用 Agent 的职责与权限。
+- [Agent 成熟度与权限晋级](agent_maturity_and_promotion.md)：用证据决定 Agent 可承担的动作级别。
 - `scripts/create_project_package.sh <project_id>`：创建项目事实包。
 - `scripts/check_project_package.sh <project_id-or-path>`：检查项目事实包的必需文件。
 - `scripts/check_markdown_links.js [path]`：检查 Markdown 本地链接。
