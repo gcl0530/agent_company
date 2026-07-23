@@ -39,8 +39,8 @@ MVP 只要求跑通一条真实项目链，必须同时具备：
 | 项目 | `1.1-项目事实与交付档案/<project_id>/01_project_charter.md` | 目标、负责人、范围、约束、代码与证据位置。 |
 | 产品定义 | `02_product_brief.md` | 场景、问题、需求、验收、非目标与假设。 |
 | 执行计划 | `03_project_plan.md` | 里程碑、任务、依赖、风险、决策与状态。 |
-| 工程与验证 | `04_engineering_and_verification.md` | 设计、变更、测试、缺陷与证据。 |
-| 交付与验收 | `05_delivery_and_acceptance.md` | 版本、环境、操作、回滚、验收和反馈。 |
+| 工程与验证概览 | `04_engineering_and_verification.md` | 总体技术方案、关键验证结论、缺陷边界与详细工程证据链接。 |
+| 交付与验收概览 | `05_delivery_and_acceptance.md` | 版本、环境、交付/验收结论与部署、日志、现场证据链接。 |
 | 复盘 | `06_retrospective.md` | 结果对比、问题、改进与资产回写。 |
 
 ## 成功判据
