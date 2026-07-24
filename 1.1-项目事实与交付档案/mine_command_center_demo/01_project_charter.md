@@ -30,7 +30,7 @@
 | 自动驾驶算法 | 不在本次范围。 |
 | 机器人自主作业算法 | 不在本次范围。 |
 | 集成/运维 | 仅本地 Vite 预览；未进入部署设计。 |
-| 代码仓库与分支 | `/home/nvidia/mine-command-center`，`master`，基线 `1ef7c25`。 |
+| 代码仓库与分支 | `/home/nvidia/mine-command-center`，`master`，基线 `a66fe15`。 |
 | 详细设计/CI/测试入口 | 代码仓库 `README.md`、`src/components/`、`src/assets/geo/zhejiang.json`；尚无 CI。 |
 | 目标环境 | Chrome/Chromium 桌面浏览器；非座舱和工控机目标。 |
 

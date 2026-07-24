@@ -4,7 +4,7 @@
 
 | 目标 | 实际结果 | 证据 | 结论 |
 | --- | --- | --- | --- |
-| 验证 Vue + ECharts + Three.js 大屏可运行 | 已在独立代码仓库实现并完成构建/浏览器检查 | `1ef7c25`、`04_engineering_and_verification.md` | 达成内部技术验证目标 |
+| 验证 Vue + ECharts + Three.js 大屏可运行 | 已在独立代码仓库实现并完成构建/浏览器检查 | `a66fe15`、`04_engineering_and_verification.md` | 达成内部技术验证目标 |
 | 形成客户可交付软件 | 未进入客户项目 | `01_project_charter.md` | 不评价，不能冒充交付完成 |
 
 ## 复盘

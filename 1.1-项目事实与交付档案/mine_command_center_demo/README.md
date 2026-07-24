@@ -1,6 +1,6 @@
 # 智慧矿山大屏内部技术验证
 
-本档案记录一次教程需求驱动的截图还原与技术验证，不是客户项目立项、报价、交付或验收记录。产品源码位于独立仓库 [`/home/nvidia/mine-command-center`](/home/nvidia/mine-command-center/README.md)，当前基线为 `1ef7c25`。
+本档案记录一次教程需求驱动的截图还原与技术验证，不是客户项目立项、报价、交付或验收记录。产品源码位于独立仓库 [`/home/nvidia/mine-command-center`](/home/nvidia/mine-command-center/README.md)，当前基线为 `a66fe15`。
 
 - `01`：立项边界与人类审批条件。
 - `02`：可验证的产品范围与数据边界。
