@@ -4,7 +4,7 @@
 
 ## 总体方案与实现索引
 
-- 代码仓库、分支、提交/版本：`/home/nvidia/mine-command-center`，`master`，`471b578`（`feat: implement mine command center dashboard mvp`）。
+- 代码仓库、分支、提交/版本：`/home/nvidia/mine-command-center`，`master`，`1ef7c25`（MVP 实现与依赖锁定基线）。
 - 本次变更目标：完成智慧矿山数据监控大屏的截图还原 MVP，验证 Vue + ECharts + Three.js 技术链。
 - 总体架构、模块与关键接口：`App.vue` 负责 1920x1080 布局和指标条；`HudPanel.vue` 负责 HUD 面板；`DashboardChart.vue` 按图表类型生成 ECharts 配置；`ZhejiangMap.vue` 将 GeoJSON 转成 Three.js 挤出几何并处理射线悬停；`dashboard.ts` 集中演示指标。无后端接口。
 - 关键配置、数据、依赖与兼容性影响：Vue 3、TypeScript、Vite 7、ECharts 6.1、Three.js 0.182；GeoJSON 为公开浙江省 11 地市边界。所有业务数据均为合成数据。
