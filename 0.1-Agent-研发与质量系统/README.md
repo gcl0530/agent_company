@@ -17,4 +17,4 @@
 - 涉及部署、通信、控制或安全时，明确输入输出、失效处理和验证范围。
 - 无法自动验证的现场结论须记录环境、步骤、现象和证据位置。
 
-使用 [工程变更与验证模板](engineering_change_template.md) 统一记录项目级工程证据。
+使用 [工程变更与验证模板](engineering_change_template.md) 记录一次变更的方案与结果，并以 [工程仓库与验证证据基线](engineering_evidence_baseline.md) 检查项目是否具备可定位版本、可复现命令、环境和观察结果。

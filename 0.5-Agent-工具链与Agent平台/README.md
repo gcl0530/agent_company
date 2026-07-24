@@ -25,6 +25,7 @@
 - [Agent 成熟度与权限晋级](agent_maturity_and_promotion.md)：用证据决定 Agent 可承担的动作级别。
 - `scripts/create_project_package.sh <project_id>`：创建项目事实包。
 - `scripts/check_project_package.sh <project_id-or-path>`：检查项目事实包的必需文件。
+- `scripts/check_project_evidence.sh <project_id-or-path>`：检查具体项目是否已登记代码基线、版本、需求/里程碑和工作单元证据；不判断结论是否真实或批准项目。
 - `scripts/check_markdown_links.js [path]`：检查 Markdown 本地链接。
 
 所有脚本只处理本地仓库文件；部署、客户外部沟通和生产动作仍由项目负责人按权限执行。

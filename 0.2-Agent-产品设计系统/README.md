@@ -17,4 +17,4 @@
 - 每条关键需求有可观察或可测量的验收方式。
 - 未确认的客户承诺不得作为已定需求进入研发。
 
-模板见 [产品简报模板](templates/product_brief_template.md)。
+模板见 [产品简报模板](templates/product_brief_template.md)。设计、数据、接口、原型或截图等输入如何进入验收链，见 [设计证据与验收链](design_evidence_and_acceptance.md)。
