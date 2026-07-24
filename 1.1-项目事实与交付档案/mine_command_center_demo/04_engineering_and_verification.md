@@ -9,6 +9,7 @@
 - 验证环境（系统、运行时、浏览器/硬件、关键配置）：WSL2 Ubuntu 22.04、Node.js 22.22.0、Chromium headless；视口 1920x1080 与 390x844；未在座舱、工控机或客户网络验证。
 - 本次变更目标：完成智慧矿山数据监控大屏的截图还原 MVP，验证 Vue + ECharts + Three.js 技术链。
 - 总体架构、模块与关键接口：`App.vue` 负责 1920x1080 布局和指标条；`HudPanel.vue` 负责 HUD 面板；`DashboardChart.vue` 按图表类型生成 ECharts 配置；`ZhejiangMap.vue` 将 GeoJSON 转成 Three.js 挤出几何并处理射线悬停；`dashboard.ts` 集中演示指标。无后端接口。
+- 跨模块契约、评测资产与所有权位置：本样板只有前端代码仓库，未形成前后端或算法跨仓库契约；`S-01` 的内部契约为演示数据 -> ECharts/Three.js -> 浏览器画布，评测资产为公开 GeoJSON、合成指标与 Playwright 视口检查。真实项目必须使用跨模块契约模板补齐 owner、兼容性、失败语义和受控样本。
 - 关键配置、数据、依赖与兼容性影响：Vue 3、TypeScript、Vite 7、ECharts 6.1、Three.js 0.182；GeoJSON 为公开浙江省 11 地市边界。所有业务数据均为合成数据。
 - 失效处理、降级或回退结论：没有 API 时保持静态演示；WebGL 不可用时当前无降级视图，真实项目需补齐；回退可回到 Git 提交 `dce4d35`。
 - 详细设计/代码/CI/测试入口：[`README.md`](/home/nvidia/mine-command-center/README.md)、[`src/components`](/home/nvidia/mine-command-center/src/components)、[`src/assets/geo/zhejiang.json`](/home/nvidia/mine-command-center/src/assets/geo/zhejiang.json)。当前未配置 CI。
