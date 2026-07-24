@@ -18,3 +18,5 @@
 - 新任务未绕开产品定义和项目计划直接进入实施。
 
 模板见 [项目控制模板](templates/project_control_template.md)。
+
+跨职能研发时，以 [端到端交付切片模板](templates/vertical_delivery_slice_template.md) 组织可观察结果和集成责任；它补充项目计划，不替代详细任务或 Issue 管理。

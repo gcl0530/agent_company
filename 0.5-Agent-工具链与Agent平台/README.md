@@ -22,7 +22,9 @@
 - [服务目录](service_catalog.md)：部门可以请求什么、服务的输入输出和边界。
 - [工具服务请求模板](tool_service_request_template.md)：提出自动化需求时的最小合同。
 - [Agent 工作单元模板](agent_work_unit_template.md)：注册可复用 Agent 的职责与权限。
+- [Agent 运行记录模板](agent_run_record_template.md)：记录一次受控运行的事实、成本、复核和异常。
 - [Agent 成熟度与权限晋级](agent_maturity_and_promotion.md)：用证据决定 Agent 可承担的动作级别。
+- [Agent 工程实践调研与采用边界](agent_engineering_practice_research.md)：公开实践的可试用机制与非结论。
 - `scripts/create_project_package.sh <project_id>`：创建项目事实包。
 - `scripts/check_project_package.sh <project_id-or-path>`：检查项目事实包的必需文件。
 - `scripts/check_project_evidence.sh <project_id-or-path>`：检查具体项目是否已登记代码基线、版本、需求/里程碑和工作单元证据；不判断结论是否真实或批准项目。

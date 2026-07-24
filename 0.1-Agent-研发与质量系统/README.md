@@ -18,3 +18,5 @@
 - 无法自动验证的现场结论须记录环境、步骤、现象和证据位置。
 
 使用 [工程变更与验证模板](engineering_change_template.md) 记录一次变更的方案与结果，并以 [工程仓库与验证证据基线](engineering_evidence_baseline.md) 检查项目是否具备可定位版本、可复现命令、环境和观察结果。
+
+跨前端、后端、算法或部署模块时，使用 [跨模块契约与评测资产模板](cross_module_contract_and_evaluation_template.md) 定义语义、兼容性、失败处理和可版本化的评测场景；不以口头联调替代契约和证据。
